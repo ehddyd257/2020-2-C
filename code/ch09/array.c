@@ -9,7 +9,7 @@ int main(void)
 
 	printf("*score: %d, score[0]: %d\n\n", *score, score[0]);
 
-	printf("Ã·ÀÚ   ÁÖ¼Ò    ÀúÀå°ª\n");
+	printf("ì²¨ì   ì£¼ì†Œ    ì €ì¥ê°’");
 
 	for (int i = 0; i < SIZE; i++)
 		printf("%2d %10u %6d\n", i, (score + i), *(score + i));
